@@ -1,0 +1,6 @@
+module purge
+module load compilers/python/2.7.13 
+module load compilers/intel/17.0.1 atomistic/vasp/5.4.4_intel17
+./Executor_UJ.py -np 16 -walltime 235 > log
+
+
